@@ -1,0 +1,145 @@
+html, body{
+    min-height: 100%;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+
+}
+
+.cover {
+    background: url('images/IMG_20200229_183800.jpg') center;
+    background-size: cover;
+    position: relative;
+    /* border-radius: 0; */
+    /* padding-top: 1rem; */
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .navbar-brand {
+    position: absolute;
+} */
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* .header {
+    background-image: url('images/IMG_20200229_183800.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    padding: 0;
+    margin-top: -100px;
+
+} */
+
+.overlay {
+    position: absolute;
+    /* Sit on top of the page content */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    /*  height: auto; */
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* margin-top: -1px; */
+}
+
+.description {
+    left: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #fff;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 2px solid;
+    background: #06052e;
+    border-radius: 1px;
+    color: #fff;
+
+}
+
+.description button:hover {
+    border: 2px solid #fff;
+    background: #06052e;
+    color: #000;
+
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.features-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
