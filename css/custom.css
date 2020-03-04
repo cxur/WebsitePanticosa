@@ -126,8 +126,7 @@ body {
     border-radius: 18px !important;
     background: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    max-width: 15rem;
-    height: auto;
+    max-width: 16rem;
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
@@ -139,29 +138,38 @@ body {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
 
-img {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+
+  .card-img-top {
+   height: 100%;
 }
 
 .card .fecha{
     color: rgb(255, 7, 110);
 }
 
-.card .details {
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-}
+
 
 .card-footer {
     color: white;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
     background-color: rgb(47, 62, 85);
     background-size: cover;
     border-bottom-right-radius: 15px !important;
     border-bottom-left-radius: 15px !important;
+}
+
+.card .card-link {
+    font-size:15px;
+    color: white;
+    margin: auto;
+}
+
+.card .card-link:hover {
+    color: #666;
 }
 
 .features {
